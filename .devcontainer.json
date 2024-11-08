@@ -9,6 +9,7 @@
         "vscode": {
             "extensions": [
                 "/opt/codespace/extensions/lynbrook-cs-0.1.0.vsix",
+                "ms-python.python",
                 "vscjava.vscode-java-pack",
                 "oliver-ni.web-cat-vscode"
             ],
@@ -36,6 +37,14 @@
                     "http://205.173.41.10/Web-CAT/WebObjects/Web-CAT.woa/wa/assignments/eclipse"
                 ]
             }
+        }
+    },
+
+    "features": {
+        "desktop-lite": {
+            "password": "apcs",
+            "webPort": "6080",
+            "vncPort": "5901"
         }
     }
 
