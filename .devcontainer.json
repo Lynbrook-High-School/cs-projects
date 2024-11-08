@@ -1,0 +1,42 @@
+{
+
+    "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "/opt/codespace/extensions/lynbrook-cs-0.1.0.vsix",
+                "vscjava.vscode-java-pack",
+                "oliver-ni.web-cat-vscode"
+            ],
+            "settings": {
+                "files.autoSave": "off",
+                "files.exclude": {
+                    "Dockerfile": true,
+                    ".gitignore": true,
+                    ".devcontainer.json": true,
+                    "**/.git": true,
+                    "**/.svn": true,
+                    "**/.hg": true,
+                    "**/CVS": true,
+                    "**/.DS_Store": true,
+                    "**/Thumbs.db": true
+                },
+                "java.server.launchMode": "Standard",
+                "redhat.telemetry.enabled": false,
+                "web-CAT.snarfURLs": [
+                    "http://205.173.41.10/pythonsnarf/snarf.xml",
+                    "http://205.173.41.10/javasnarf/snarf.xml",
+                    "http://205.173.41.10/apcssnarf/snarf.xml"
+                ],
+                "web-CAT.submitURLs": [
+                    "http://205.173.41.10/Web-CAT/WebObjects/Web-CAT.woa/wa/assignments/eclipse"
+                ]
+            }
+        }
+    }
+
+}
