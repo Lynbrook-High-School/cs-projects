@@ -17,6 +17,7 @@
                 "files.autoSave": "off",
                 "files.exclude": {
                     "Dockerfile": true,
+                    "docs": true,
                     ".gitignore": true,
                     ".devcontainer.json": true,
                     "**/.git": true,
@@ -37,14 +38,6 @@
                     "http://205.173.41.10/Web-CAT/WebObjects/Web-CAT.woa/wa/assignments/eclipse"
                 ]
             }
-        }
-    },
-
-    "features": {
-        "desktop-lite": {
-            "password": "apcs",
-            "webPort": "6080",
-            "vncPort": "5901"
         }
     }
 
