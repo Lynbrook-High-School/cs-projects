@@ -1,0 +1,20 @@
+This file documents the contents of this repository, and how the codespace works.
+
+A GitHub Codespace is an implementation of the Development Container (https://containers.dev/)
+spec, where pre-built containers can be used as development environments.
+
+In this repository, the `.devcontainer.json` specifies the settings for the devcontainer.
+The specification can be found at https://containers.dev/implementors/spec/.
+
+The Dockerfile located at the root of this repository is responsible for bootstrapping the
+development container.
+
+It is based off Ubuntu 24.04, which is a LTS version, expected to be supported until around 2034.
+When the time comes (if it ever does), update the Dockerfile to be based off a newer release.
+The release cycle can be found at https://ubuntu.com/about/release-cycle.
+
+The Dockerfile then installs node, java, python3, pygame, and all the required VSCode extensions
+are installed.
+
+The `docs/` folder contains instructions to setup the development container, the `guide.pdf` file
+is typset in Typst (https://github.com/typst/typst).
