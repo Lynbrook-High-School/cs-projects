@@ -12,7 +12,7 @@
 
 + Copy the information from the picture:
     #image("static/img_1.png", width: 60%)
-    - URL: https://github.com/blaw105/cs-projects
+    - URL: https://github.com/Lynbrook-High-School/cs-projects
     - Owner should be the account you made
     - Repository name: *cs-projects*
     - *Make sure the repository is private*

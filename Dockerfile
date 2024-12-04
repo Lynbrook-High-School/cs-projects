@@ -27,7 +27,7 @@ RUN <<EOF
     npm install --global @vscode/vsce
     mkdir -p /opt/codespace/extensions
     cd /tmp
-    git clone https://github.com/blaw105/lynbrook-cs
+    git clone https://github.com/Lynbrook-High-School/lynbrook-cs
     cd lynbrook-cs
     npm install
     vsce package
