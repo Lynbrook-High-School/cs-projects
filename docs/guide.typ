@@ -64,3 +64,11 @@
 
 + To reopen the codespace at home, go to your repository, click *Code*, and then your codespace
     #image("static/img_10.png", width: 60%)
+
++ To add a file from your computer or Google Drive to the codespace,
+    select it and drop it into the codespace file explorer.
+    #image("static/img_11.png", width: 60%)
+
++ To download a file or folder from the codespace,
+    right click the file or folder and click *Download...*
+    #image("static/img_12.png", width: 60%)
